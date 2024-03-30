@@ -1,47 +1,47 @@
-local C = require 'nordic.colors'
+local C = require 'saturn.colors'
 
-local nordic = {}
+local saturn = {}
 
-nordic.normal = {
+saturn.normal = {
     a = { bg = C.orange.bright, fg = C.black0, gui = 'bold' },
     b = { bg = C.gray1, fg = C.white1 },
     c = { bg = C.bg_statusline, fg = C.white0 },
 }
 
-nordic.insert = {
+saturn.insert = {
     a = { bg = C.green.bright, fg = C.black0, gui = 'bold' },
     b = { bg = C.gray1, fg = C.white1 },
     c = { bg = C.bg_statusline, fg = C.white0 },
 }
 
-nordic.command = {
+saturn.command = {
     a = { bg = C.cyan.bright, fg = C.black0, gui = 'bold' },
     b = { bg = C.gray1, fg = C.white1 },
     c = { bg = C.bg_statusline, fg = C.white0 },
 }
 
-nordic.visual = {
+saturn.visual = {
     a = { bg = C.red.bright, fg = C.black0, gui = 'bold' },
     b = { bg = C.gray1, fg = C.white1 },
     c = { bg = C.bg_statusline, fg = C.white0 },
 }
 
-nordic.replace = {
+saturn.replace = {
     a = { bg = C.magenta.bright, fg = C.black0, gui = 'bold' },
     b = { bg = C.gray1, fg = C.white1 },
     c = { bg = C.bg_statusline, fg = C.white0 },
 }
 
-nordic.terminal = {
+saturn.terminal = {
     a = { bg = C.blue2, fg = C.black0, gui = 'bold' },
     b = { bg = C.gray1, fg = C.white1 },
     c = { bg = C.bg_statusline, fg = C.white0 },
 }
 
-nordic.inactive = {
+saturn.inactive = {
     a = { bg = C.gray2, fg = C.black0, gui = 'bold' },
     b = { bg = C.gray1, fg = C.white1 },
     c = { bg = C.bg_statusline, fg = C.white0 },
 }
 
-return nordic
+return saturn

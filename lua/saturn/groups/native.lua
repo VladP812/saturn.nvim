@@ -6,8 +6,8 @@ local M = {}
 -- Uncomment and edit if you want more specific syntax highlighting.
 
 function M.get_groups()
-    local C = require 'nordic.colors'
-    local O = require 'nordic.config'.options
+    local C = require 'saturn.colors'
+    local O = require 'saturn.config'.options
 
     local G = {}
 

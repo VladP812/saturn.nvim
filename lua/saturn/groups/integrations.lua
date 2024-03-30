@@ -1,8 +1,8 @@
 local M = {}
 
 function M.get_groups()
-    local C = require 'nordic.colors'
-    local O = require 'nordic.config'.options
+    local C = require 'saturn.colors'
+    local O = require 'saturn.config'.options
 
     local G = {}
 
@@ -85,7 +85,7 @@ function M.get_groups()
     G.DiagnosticBorder = { link = 'FloatBorder' }
 
     -- Mini Statusline.
-    local LC = require 'lualine.themes.nordic'
+    local LC = require 'lualine.themes.saturn'
     G.MiniStatuslineModeNormal = { bg = LC.normal.a.bg, fg = LC.normal.a.fg, bold = LC.normal.a.gui == 'bold', }
     G.MiniStatuslineModeInsert = { bg = LC.insert.a.bg, fg = LC.insert.a.fg, bold = LC.insert.a.gui == 'bold', }
     G.MiniStatuslineModeVisual = { bg = LC.visual.a.bg, fg = LC.visual.a.fg, bold = LC.visual.a.gui == 'bold', }

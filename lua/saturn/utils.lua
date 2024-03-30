@@ -1,6 +1,6 @@
 local M = {}
 
-M.NAME = 'nordic'
+M.NAME = 'saturn'
 function M.loaded()
     return vim.g.colors_name == M.NAME
 end

@@ -1,8 +1,8 @@
-local U = require 'nordic.utils'
-local C = require 'nordic.colors.nordic'
+local U = require 'saturn.utils'
+local C = require 'saturn.colors.saturn'
 
 function C.extend_palette()
-    local options = require('nordic.config').options
+    local options = require('saturn.config').options
 
     -- `white0` is used as the default fg, and has a blue tint.
     -- Reduce that amount of tint.

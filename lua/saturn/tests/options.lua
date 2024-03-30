@@ -1,7 +1,7 @@
 -- First test the default config, and then test different variations of the config.
 
-local config = require('nordic.config').options
-local load = require('nordic').load
+local config = require('saturn.config').options
+local load = require('saturn').load
 
 local function flip_string(string)
     local switch = {
