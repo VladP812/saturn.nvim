@@ -1,3 +1,5 @@
+package.path = package.path .. ';/?.lua'
+
 local U = require 'saturn.utils'
 
 local M = {}

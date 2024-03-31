@@ -6,14 +6,14 @@ local palette = {
     none = 'NONE',
 
     -- Blacks. Not in base Nord.
-    black0 = '#191D24',
+    black0 = '#222833',
     black1 = '#1E222A',
     -- Slightly darker than bg.  Very useful for certain popups
     black2 = '#222630',
 
     -- Grays
     -- This color is used on their website's dark theme.
-    gray0 = '#151A23', -- bg
+    gray0 = '#191c21', -- bg
     -- Polar Night.
     gray1 = '#2E3440',
     gray2 = '#3B4252',
